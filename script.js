@@ -75,20 +75,19 @@ function buildPlanner(){
     //=====Past, present, or future?=====
     var blockState;
     var today = new Date();
-    if (time > today.getHours()){
-        //Set color to green
+    if (x > today.getHours()){
+        //Set color to green for future blocks
         blockState = "green";
         
     }
-    else if (time == today.getHours()){
-        //Set color to red
+    else if (x == today.getHours()){
+        //Set color to red for current block
         blockState = "red";
         
     }
-    else if (time < today.getHours()){
-        //Set color to gray
+    else if (x < today.getHours()){
+        //Set color to gray for past blocks
         blockState = "gray";
-        
     }
     
     
