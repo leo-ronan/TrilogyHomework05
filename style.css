@@ -1,0 +1,64 @@
+.container div {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: 4%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.container p {
+    display: inline-block;   
+    width: 55px;
+    padding-top: 7px;
+    padding-left: 7px;
+    font-weight: bold;
+}
+.container textarea {
+    resize: none;
+    visibility: visible;
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: auto;
+    text-shadow: 0 0 0 #000000;
+}
+.container span {
+    border: 1px solid #4a4a4a;
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: auto;
+    width: 43px;
+    height: 20px;
+    margin-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+.container span:active {
+    border: 1px solid black;
+}
+
+#clearDiv {
+    margin-top: 5px;
+    margin-bottom: 12px;
+    margin-right: 4%;
+    margin-left: auto;
+    width: 100%;
+}
+
+#clearImg {
+   width: 4%;
+   height: 6%;
+   margin-right: auto;
+   margin-left: 92%;
+   opacity: 80%
+}
+
+#clearImg:hover {
+    opacity: 100%;
+}

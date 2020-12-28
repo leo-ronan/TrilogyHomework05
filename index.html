@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Planner</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="start()">
+    <div class="jumbotron text-center">
+        <h1>Work Day Planner</h1>
+        <p>A simple calendar app for scheduling your work day</p>
+        <br>
+        <h2 id="dateTime"></h2>
+    </div>
+    <div id="clearDiv">
+        <img id="clearImg" src="Assets/refresh-btn.png" title="Clear all entries" alt="Clear all entries" onclick="clearAll()">
+    </div>
+    <div class="container" id="container"></div>
+</body>
+</html>
