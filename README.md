@@ -8,3 +8,5 @@ CURRENT is red,
 FUTURE is green.
 
 If it's past 5pm, all blocks will be gray until the next day. To test functionality outside of 9-5, just change your pc's time.
+
+https://i.imgur.com/ynwxprx.png
